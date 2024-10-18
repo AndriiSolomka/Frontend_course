@@ -6,26 +6,84 @@
     <title> </title>
   </head>
   <body>
-    <header>
+    <header class="header">
       <a href="index.html"
         ><img src="img/logo.png" alt="update logo" />UpDate</a
       >
 
-      <nav>
-        <ul>
+      <nav class="header__nav">
+        <ul class="header__nav-list">
           <li><a href="#">Courses</a></li>
           <li><a href="#">Teachers</a></li>
           <li><a href="#">Blog</a></li>
         </ul>
       </nav>
 
-      <a href="#">En</a>
-      <a href="#">Sign In</a>
-      <a href="#">Trial free </a>
+      <div class="header__options">
+        <a href="#">En</a>
+        <a href="#">Sign In</a>
+        <a href="#">Trial free </a>
+      </div>
     </header>
 
-    <footer>
-      <div>
+    <main class="main">
+      <section class="offer-section">
+        <h1>Explore thousands of hands-on creative classes.</h1>
+        <p>Start learning for <a href="#">free</a></p>
+        <button class="offer-section__button">Choose a cource</button>
+        <p><time> 24 Days 17:44:16 </time></p>
+        <p class="offer-section__sale">50 %</p>
+
+        <ul class="offer-section__list">
+          <li><img src="img/happyManLogo.png" alt="happy Man Logo" /></li>
+          <li>Marketer</li>
+          <li>Illustrator</li>
+          <li>Animator</li>
+          <li>Programmer</li>
+          <li>Designer</li>
+          <li>Photographer</li>
+        </ul>
+      </section>
+
+      <section class="info-section">
+        <div class="info-section__short-info">
+          <h2>What you will learn</h2>
+          <p>
+            Up-to-date knowledge from recognized market experts for beginners
+            and practitioners
+          </p>
+          <p>
+            On the platform, you can gain knowledge on current topics and
+            in-demand skills. All courses are aimed at practice: we monitor the
+            relevance of the material and help with employment and internship
+          </p>
+        </div>
+
+        <div class="info-section__courses-count">
+          <ul>
+            <li><h2>56</h2></li>
+            <li>Courses</li>
+          </ul>
+        </div>
+
+        <div class="info-section__curators-count">
+          <ul>
+            <li><h2>108</h2></li>
+            <li>Curators</li>
+          </ul>
+        </div>
+
+        <div class="info-section__graduates-count">
+          <ul>
+            <li><h2>3 723</h2></li>
+            <li>Graduates</li>
+          </ul>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="footer__contact-info">
         <a href="index.html"
           ><img src="img/logo.png" alt="update logo" />UpDate</a
         >
@@ -34,9 +92,9 @@
         <a href="tel:12136771024">+1 (213) 677 10 24</a>
       </div>
 
-      <div class="sitemap">
-        <h6 class="sitemap__title">Courses</h6>
-        <ul class="sitemap__list">
+      <div class="footer__sitemap">
+        <h6 class="footer__sitemap-title">Courses</h6>
+        <ul class="footer__sitemap-list">
           <li><a href="#">Animation</a></li>
           <li><a href="#">Design</a></li>
           <li><a href="#">Illustration</a></li>
@@ -46,131 +104,24 @@
         </ul>
       </div>
 
-      <main>
-        <section class="offer">
-          <h1>Explore thousands of hands-on creative classes.</h1>
-          <p>Start learning for <a href="#">free</a></p>
-        </section>
-        <button class="button">Choose a cource</button>
-        <p>
-          <time> 24 Days 17:44:16 </time>
-        </p>
-        <p class="offer__sale">50 %</p>
-
-        <ul class="offer__list">
-          <li><img src="img/happyManLogo.png" alt="happy Man Logo" /></li>
-          <li>Marketer</li>
-          <li>Illustrator</li>
-          <li>Animator</li>
-          <li>Programmer</li>
-          <li>Designer</li>
-          <li>Photographer</li>
-        </ul>
-
-        <section class="info">
-          <div class="short__info">
-            <h2>What you will learn</h2>
-            <p>
-              Up-to-date knowledge from recognized market experts for beginners
-              and practitioners
-            </p>
-            <p>
-              On the platform, you can gain knowledge on current topics and
-              in-demand skills. All courses are aimed at practice: we monitor
-              the relevance of the material and help with employment and
-              internship
-            </p>
-          </div>
-
-          <div class="courses__count">
-            <ul>
-              <li><h2>56</h2></li>
-              <li>Courses</li>
-            </ul>
-          </div>
-
-          <div class="curators__count">
-            <ul>
-              <li><h2>108</h2></li>
-              <li>Curators</li>
-            </ul>
-          </div>
-
-          <div class="graduates__count">
-            <ul>
-              <li><h2>3 723</h2></li>
-              <li>Graduates</li>
-            </ul>
-          </div>
-        </section>
-
-        <section class="lifelong">
-          <h2>Discover Lifelong Learning</h2>
-
-          <div>
-            <nav class="liflong__navi">
-              <ul class="lifelong__categories">
-                <li><a href="#">Popular</a></li>
-                <li><a href="#">Animation</a></li>
-                <li><a href="#">Design</a></li>
-                <li><a href="#">Illustration</a></li>
-                <li><a href="#">Programming</a></li>
-                <li><a href="#">Photo & Film</a></li>
-                <li><a href="#">Marketing</a></li>
-              </ul>
-            </nav>
-            <ul class="lifelong__categories__img">
-              <li><a href="#"></a></li>
-              <li><a href="#"></a></li>
-              <li><a href="#"></a></li>
-              <li><a href="#"></a></li>
-            </ul>
-          </div>
-        </section>
-
-        <section class="help__form">
-          <div>
-            <h2>Can't find a suitable program?</h2>
-            <p>We will help you with the choice!</p>
-          </div>
-          <div class="input">
-            <form>
-              <input
-                type="text"
-                name="name"
-                placeholder="Name"
-                required
-              /><br />
-              <input
-                type="email"
-                name="email"
-                placeholder="Email"
-                required
-              /><br />
-              <button type="submit">Help me</button>
-            </form>
-          </div>
-        </section>
-      </main>
-
-      <div class="sitemap">
-        <h6 class="sitemap__title">Teachers</h6>
-        <ul class="sitemap__list">
+      <div class="footer__sitemap">
+        <h6 class="footer__sitemap-title">Teachers</h6>
+        <ul class="footer__sitemap-list">
           <li><a href="#">All Teachers</a></li>
           <li><a href="#">Become a Teacher</a></li>
         </ul>
       </div>
-      <div class="sitemap">
-        <h6 class="sitemap__title">Information</h6>
-        <ul class="sitemap__list">
+      <div class="footer__sitemap">
+        <h6 class="footer__sitemap-title">Information</h6>
+        <ul class="footer__sitemap-list">
           <li><a href="#">Blog</a></li>
           <li><a href="#">About us</a></li>
           <li><a href="#">FAQ</a></li>
         </ul>
       </div>
-      <div class="sitemap">
-        <h6 class="sitemap__title">En</h6>
-        <ul class="sitemap__list">
+      <div class="footer__sitemap">
+        <h6 class="footer__sitemap-title">En</h6>
+        <ul class="footer__sitemap-list">
           <li><a href="#">English</a></li>
           <li><a href="#">French</a></li>
           <li><a href="#">Russian</a></li>
