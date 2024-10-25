@@ -1,10 +1,11 @@
 body {
-    background-color: #efeff2;
+    background: #EFEFF2;
     margin: 0;
-    color: #19191c;
     font: 400 18px/28px Inter, sans-serif;
+    color: #19191C;
 }
 
+/*Header*/
 .container {
     width: 1440px;
     margin: 0 auto;
@@ -12,17 +13,17 @@ body {
 
 .header {
     display: flex;
-    justify-content: space-between;
     padding: 36px 0 0;
+    justify-content: space-between;
 }
 
 .header__box {
     display: flex;
-    align-items: center;
     gap: 68px;
+    align-items: center;
 }
 
-.nav__list {
+.header__nav-list {
     display: flex;
     list-style: none;
     gap: 48px;
@@ -33,33 +34,15 @@ body {
     font-weight: 600;
 }
 
-.link {
-    color: #19191c;
+.header__nav-link {
+    color: #19191C;
     text-decoration: none;
 }
 
-.btn-box {
+.header__btn-box {
     display: flex;
     gap: 48px;
     align-items: center;
-}
-
-.header__link {
-    text-decoration: none;
-    color: #19191c;
-    font-size: 18px;
-    line-height: 22px;
-    font-weight: 600;
-}
-
-.header__btn {
-    padding: 12px 37px;
-    background: #19191c;
-    text-decoration: none;
-    color: #efeff2;
-    font-size: 18px;
-    line-height: 22px;
-    font-weight: 700;
 }
 
 .logo {
@@ -68,25 +51,400 @@ body {
     line-height: 30px;
     display: flex;
     gap: 14px;
-    color: #19191c;
+    color: #19191C;
     text-decoration: none;
     align-items: center;
 }
 
-.offer {
+.header__link {
+    text-decoration: none;
+    color: #19191C;
+    font-size: 18px;
+    line-height: 22px;
+    font-weight: 600;
+}
+
+.header__btn {
+    text-decoration: none;
+    background: #19191C;
+    color: #EFEFF2;
+    padding: 12px 37px;
+    font-size: 18px;
+    line-height: 22px;
+    font-weight: 700;
+}
+
+/*Main - offer*/
+.offer__container {
     display: flex;
     justify-content: space-between;
+    padding-top: 186px;
+    padding-bottom: 216px;
+    width: 1440px;
+    margin: 0 auto;
+    background: url("../img/happy_man_logo.png") 100% 100% no-repeat;
+
 }
 
 .offer__holder {
     width: 648px;
+    background: url("../img/ellipse_20.png") 140% 140% no-repeat;
 }
 
 .offer__title {
     font-size: 58px;
     font-weight: 700;
     line-height: 70px;
+    margin: 0 0 18px;
+    color: #19191C;
+
 }
+
+.offer__description {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    color: #19191C;
+    margin: 0 0 68px;
+
+}
+
+.offer__description-link {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    color: #504DEE;
+    text-decoration: none;
+
+}
+
+.offer__button {
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 22px;
+    background: #504DEE;
+    padding: 16px 37px;
+    border: none;
+    color: #FBFBFC;
+    margin: 0 0 110px;
+
+}
+
+
+.offer__sale {
+    font-size: 58px;
+    font-weight: 700;
+    line-height: 70px;
+    color: #19191C;
+    margin: 0 0 8px;
+}
+
+
+.offer__time {
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 22px;
+}
+
+.offer__list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    flex-grow: 1;
+    position: relative;
+}
+
+.offer__item {
+    position: absolute;
+    border: 2px solid #19191C;
+    padding: 16px 36px;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 22px;
+}
+
+.offer__list-market {
+    top: 20px;
+    right: 20px;
+}
+
+.offer__list-illustrator {
+    top: -70px;
+    right: 250px;
+}
+
+.offer__list-animator {
+    top: 5px;
+    right: 500px;
+}
+
+.offer__list-programmer {
+    top: 200px;
+    right: 700px;
+}
+
+.offer__list-designer {
+    top: 400px;
+    right: 850px;
+}
+
+.offer__list-photographer {
+    top: 600px;
+    right: 700px;
+}
+
+/*Main learn*/
+
+.learn {
+    background: #19191C;
+}
+
+.learn__container {
+    width: 1440px;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    padding-bottom: 162px;
+    padding-top: 168px;
+
+}
+
+.learn__holder {
+    width: 539px;
+}
+
+.learn__title {
+    font-size: 58px;
+    font-weight: 700;
+    line-height: 70px;
+    color: #FBFBFC;
+    margin-top: 0;
+}
+
+.learn__container-holder {
+    display: flex;
+    justify-content: space-between;
+    gap: 86px;
+    margin-top: 0;
+}
+
+.learn__description {
+    color: #EFEFF2;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 28px;
+
+}
+
+.learn__counter {
+    border-bottom: 4px solid #FBFBFC;
+    margin-bottom: 22px;
+    width: 178px;
+    height: 119px;
+}
+
+.learn__counter-number {
+    font-size: 58px;
+    font-weight: 700;
+    line-height: 70px;
+    color: #FBFBFC;
+    margin-top: 0;
+    margin-bottom: 5px;
+
+}
+
+.learn__counter-description {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 28px;
+    color: #FBFBFC;
+    margin-bottom: 0;
+    margin-top: 0;
+    padding-top: 0;
+}
+
+/*Main - offer*/
+.offer {
+    display: flex;
+    justify-content: space-between;
+}
+
+.offer__header {
+    font-weight: 700;
+    font-size: 58px;
+    line-height: 70px;
+
+}
+
+/*Main discover*/
+
+.discover__container {
+    width: 1440px;
+    display: block;
+    justify-content: space-around;
+    margin: 0 auto;
+    padding-top: 168px;
+    padding-bottom: 168px;
+}
+
+.discover__title {
+    width: 594px;
+    font-size: 58px;
+    font-weight: 700;
+    line-height: 70px;
+    color: #19191C;
+    margin-bottom: 45px;
+
+}
+
+.discover__menu {
+    display: flex;
+    gap: 430px;
+    margin-bottom: 65px;
+
+}
+
+.discover__list {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    padding: 0;
+    gap: 40px;
+}
+
+.discover__button {
+    display: flex;
+    align-items: center;
+    background: none;
+    border: none;
+    padding: 0 0 0;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 22px;
+    color: #19191C;
+
+}
+
+.discover__more-info {
+    display: flex;
+    padding: 0;
+    align-items: center;
+    gap: 18px;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 22px;
+    color: #19191C;
+
+}
+
+.device__cards {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.device__cards-img {
+    width: 345px;
+    height: 395px;
+}
+
+.discover__card-title {
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 26px;
+    color: #19191C;
+    margin: 28px 0 0;
+
+}
+
+.device__cards-length {
+    font-size: 18px;
+    margin: 11px 0 0;
+    font-weight: 400;
+    line-height: 28px;
+    color: #6D6D77;
+}
+
+/*Main find-program*/
+
+.find-program {
+    background: #DEEFE4;
+}
+
+.find-program__container {
+    width: 1440px;
+    align-items: baseline;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 168px;
+    padding-bottom: 168px;
+}
+
+.find-program__text {
+    display: flex;
+    flex-direction: column;
+    gap: 26px;
+    padding-top: 0;
+}
+
+
+.find-program__title {
+    margin: 0 0 0;
+    font-size: 58px;
+    font-weight: 700;
+    line-height: 70px;
+    width: 800px;
+    color: #19191C;
+}
+
+.find-program__description {
+    margin: 0 0 0;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 28px;
+    color: #19191C;
+}
+
+.find-program__form {
+    display: flex;
+    gap: 82px;
+    flex-direction: column;
+}
+
+.form__input {
+    background: #DEEFE4;
+    border: none;
+    border-bottom: 2px solid #19191C;
+    outline: none;
+    width: 710px;
+    padding-bottom: 6px;
+}
+
+.form__input::placeholder {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 28px;
+    color: #19191C;
+}
+
+
+.find-program__button {
+    text-decoration: none;
+    background: #19191C;
+    color: #EFEFF2;
+    border: none;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 22px;
+    width: 144px;
+    padding: 0 0 0 0;
+    height: 53px;
+}
+
+
+/*Footer*/
 
 .footer {
     background: #19191c;
