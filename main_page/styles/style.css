@@ -75,6 +75,24 @@ body {
 }
 
 /*Main - offer*/
+
+/*url("../img/rectangle_107.png")*/
+
+.offer {
+    display: flex;
+    justify-content: space-between;
+    background: url(../img/ellipse_20.png) 1% 1% no-repeat,
+    url(../img/ellipse_22.png) 100% 50% no-repeat,
+    url(../img/ellipse.png) 100% 55% no-repeat;
+}
+
+.offer__header {
+    font-weight: 700;
+    font-size: 58px;
+    line-height: 70px;
+}
+
+
 .offer__container {
     display: flex;
     justify-content: space-between;
@@ -82,13 +100,13 @@ body {
     padding-bottom: 216px;
     width: 1440px;
     margin: 0 auto;
-    background: url("../img/happy_man_logo.png") 100% 100% no-repeat;
+    background: url("../img/happy_man_logo.png") 100% 100% no-repeat,
+    url("../img/rectangle_107.png") 88% 100% no-repeat;
 
 }
 
 .offer__holder {
     width: 648px;
-    background: url("../img/ellipse_20.png") 140% 140% no-repeat;
 }
 
 .offer__title {
@@ -263,18 +281,6 @@ body {
     padding-top: 0;
 }
 
-/*Main - offer*/
-.offer {
-    display: flex;
-    justify-content: space-between;
-}
-
-.offer__header {
-    font-weight: 700;
-    font-size: 58px;
-    line-height: 70px;
-
-}
 
 /*Main discover*/
 
